@@ -88,6 +88,18 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\TheRockStroke.png" />
+    <AndroidResource Include="Resources\drawable\TheTinyRock.png" />
+    <AndroidResource Include="Resources\drawable\whiteblock.png" />
+    <AndroidResource Include="Resources\drawable\Mit3Sta3.png" />
+    <AndroidResource Include="Resources\drawable\Mit2Sta1.png" />
+    <AndroidResource Include="Resources\drawable\Mit4St1S3.png" />
+    <AndroidResource Include="Resources\drawable\Mit4Sta3T.png" />
+    <AndroidResource Include="Resources\drawable\Mit5St1.png" />
+    <AndroidResource Include="Resources\drawable\Mit1Sta2.png" />
+    <AndroidResource Include="Resources\drawable\LogoTry.png" />
+    <AndroidResource Include="Resources\drawable\Yellow1.png" />
+    <AndroidResource Include="Resources\drawable\Mit1Sta2SMALL.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

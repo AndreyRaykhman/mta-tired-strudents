@@ -10,7 +10,10 @@ namespace CoachApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new TimePage();
+           
+
         }
 
         protected override void OnStart()

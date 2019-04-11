@@ -28,10 +28,18 @@ namespace CoachApp
             return;
             //File.WriteAllText(_fileName, editor.Text);
         }
-
         void OnDeleteButtonClicked(object sender, EventArgs e)
         {
             return;
+            //File.WriteAllText(_fileName, editor.Text);
+        }
+
+        void OnGuestButtonClicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new TaskPage();
+           
+
+            //return;
             //if (File.Exists(_fileName))
             //{
             //    File.Delete(_fileName);

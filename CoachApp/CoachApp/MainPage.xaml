@@ -43,8 +43,8 @@
                     VerticalOptions="End"/>
             
             <Button Grid.Row="11"
-                    Text="Login Using Gmail"
-                    Clicked="OnDeleteButtonClicked"
+                    Text="GUEST"
+                    Clicked="OnGuestButtonClicked"
                     BackgroundColor="Gray"
                     TextColor="White"
                     VerticalOptions="End"/>

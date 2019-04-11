@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoachApp.TaskPage">
+     <StackLayout Margin="2,20,2,2" > 
+        <Label Text="Select the desired training.. "
+               FontSize="Large"
+               Margin="10"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Black"/>
+        <Grid HorizontalOptions="Start" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="100" />         
+            </Grid.RowDefinitions>
+            
+  
+            
+            <Button Grid.Row="1"
+                    Grid.Column="0"
+                    Image="Mit2Sta1.png"
+                    CornerRadius="70"
+                    
+                    Clicked="OnClickTask"
+                    VerticalOptions="End"
+                 
+                   
+                    TextColor="White"
+                      />
+             <Button Grid.Row="1"
+                     Grid.Column="1"
+                    Image="Mit5St1.png"
+                     CornerRadius="100"
+                     
+                    
+                    Clicked="OnClickTask"
+                    VerticalOptions="End"
+                    
+                    
+                    TextColor="White"
+                      />
+            <Button Grid.Row="2"
+                     Grid.Column="0"
+                    Image="Yellow1.png"
+                    Clicked="OnClickTask"
+                    CornerRadius="100"
+                    
+                    VerticalOptions="End"/>
+            <Button Grid.Row="2"
+                    Grid.Column="1"
+                    CornerRadius="50"
+                    Image="Mit1Sta2.png"
+                    
+                    Clicked="OnClickTask"
+                    
+                    TextColor="White"
+                    VerticalOptions="End"/>
+            
+            <Button Grid.Row="3"
+                    Grid.Column="1"
+                    CornerRadius="50"
+                    Image="Mit4Sta3T.png"
+                   
+                    
+                    Clicked="OnClickTask"
+                    
+                    VerticalOptions="End"/>
+            
+            <Button Grid.Row="3"
+                    Grid.Column="0"
+                    CornerRadius="50"
+                    Image="Mit3Sta3.png"
+                    Clicked="OnClickTask"
+                    
+                    VerticalOptions="End"/>
+            
+           
+        </Grid>
+    </StackLayout>
+<!--    <Button Image="TheRockStroke.png"-->
+   <!-- <Button  Text="GYM"
+     /
+            
+                    Clicked="OnDeleteButtonClicked"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    VerticalOptions="Start"/>-->
+
+   <!-- <Image AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+            Source="TheRockStroke.jpg" Aspect="AspectFill"/>-->
+    <!--<Button BackgroundColor="Red" Clicked="InvertAllCheck" 
+            Text="Test" VerticalOptions="End"  Image="TheRockStroke.png"/>-->
+   <!-- <ImageButton Source="TheTinyRock.png"
+                    HorizontalOptions="CenterAndExpand"
+                 
+                 CornerRadius="40"
+                 BackgroundColor="Lime"
+                 ContentLayout="Top,0"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="OnImageButtonClicked"
+                 />-->
+<!--    <Button Image="TheRockStroke.png" />-->
+    
+    
+       
+ 
+</ContentPage>
