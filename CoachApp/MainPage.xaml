@@ -1,7 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CoachApp" x:Class="CoachApp.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoachApp.MainPage">
+   
+       
+       
+    <StackLayout Margin="2,20,2,2" > 
+        <Grid HorizontalOptions="End" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="380" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="10" />         
+            </Grid.RowDefinitions>
+            
+            <Label Text="Welcome to your"
+               FontSize="Large"
+               Scale="2"
+               Grid.Row="1"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Black"/>
+             <Label Text="Coach App!"
+               FontSize="Large"
+               Scale="2"
+               Grid.Row="2"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Black"/>
+            <Button Grid.Row="9"
+                    Text="Login Using Facebook"
+                    Clicked="OnSaveButtonClicked"
+                    VerticalOptions="End"
+                    BackgroundColor="#03A9F4"
+                    TextColor="White"
+                      />
+            <Button Grid.Row="10"
+                    Text="Login Using Gmail"
+                    Clicked="OnDeleteButtonClicked"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    VerticalOptions="End"/>
+            
+            <Button Grid.Row="11"
+                    Text="Login Using Gmail"
+                    Clicked="OnDeleteButtonClicked"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    VerticalOptions="End"/>
+        </Grid>
     </StackLayout>
 </ContentPage>
